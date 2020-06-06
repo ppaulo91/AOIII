@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Programação WEB - Atividade Online I</title>
+	<style type="text/css">
+	<body {color: #FF0000;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+	<script type="text/javascript" src="codigo2.js"></script>
+	</style>
+	</head>
+	<body>
+	<table>
+	<tr><h2><b>Aluno: Pedro Paulo Rodrigues Fernandes</td><br><br></b>
+	<img src="Imagem.JPG" alt="Foto do Pedro" align="center" width="130" height="150">
+	</h2>
+	<td>
+	</table>
+	<table border="1" cellspacing="1" cellpadding="1">
+		<caption><b>Tabela 1: Horário e atividades</caption>
+		<thead>
+		<th>Horário</th>
+
+		<th>Atividades</th>
+		</thead>
+		<tbody>
+	<tr>
+		<td>7:00</td>
+		<td>Acordar</td></tr>
+	<tr>
+		<td>7:30 - 13:30</td>
+		<td>Trabalho</td>
+	</tr>
+	<tr>
+	<td>14:00 - 14:30</td>
+	<td>Almoço</td>
+</tr>
+<tr>
+	<td>14:30 - 17:00</td>
+	<td>Descanso</td>
+</tr>
+<tr>
+	<td>17:30 - 18:00</td>
+	<td>Lanche</td>	
+</tr>
+<tr>
+	<td>18:00 - 19:30</td>
+	<td>Programação WEB</td>	
+</tr>
+<tr>
+	<td>19:30 - 20:00</td>
+	<td>Jantar</td>
+</tr>
+<tr>
+	<td>20:00 - 22:00</td>
+	<td>Assistir TV</td>
+</tr>
+<tr>
+	<td rowspan="2">22:00</td>
+	<td>Dormir</td>
+<tr>
+<td>Fim do dia</td>
+</tr>
+</tbody>
+	</table>
+	<h3><b>Formulário para contato</h3></b>
+	<form name ="form" action="teste.php" method="POST">
+		<div>
+		<label>Nome:</label></br>
+		<input type="text" name="Nome">
+		</div>
+		<div>
+		<label>Email:</label></br>
+		<input type="text" name="Email">
+		</div>
+		<div><label>Mensagem:</label></br>
+		<textarea id="Mensagem" name="Mensagem"></textarea></div>
+		<br>
+		<div class="botao">
+		<!--<button type="submit" id="email">Enviar</button>-->
+		<button type="reset" id="limpar">Limpar</button>
+		<button type="button" onclick="validar()">Enviar Dados</button>
+		<br>
+	</form>
+</body>
+</html>
